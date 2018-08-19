@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<!-- AMY CHIU -->
+<html>
+	<head>
+		<title> User Input</title>
+		<link type = "text/css" rel = "stylesheet" href = "donation page.css" />
+		<style>
+			
+		</style>
+		<script>
+			function initialize()
+			{
+				nameInput=document.getElementById("namebox");
+				donationsInput=document.getElementById("donationbox")
+				donationOutput=document.getElementById("donations");
+				myName="Vistor";
+				
+				donationOutput.innerHTML="Thank You "+ myName + " for visiting our page, If you like our page please donate!! <3" + "!";
+				
+			}
+			
+			function displayInfo()
+			{
+				myName=nameInput.value;
+				myDonation=parseInt(donationsInput.value);
+				donationOutput.innerHTML="Thank you "+ myName + "!" + "<br/>"+ "Your donation is " + myDonation + "<3" + "." +"<br/>";
+			}
+		</script>
+	</head>
+	<body onload= "initialize();">
+		<h1 id=donations> Thank You</h1>
+		<div>
+			<label>
+				What is your name?
+				<input type="text" id="namebox" />
+			</label>
+			<hr/>
+			
+			<label>
+				What is your donation in numbers?
+				<input type="number" id="donationbox" />
+			</label>
+		</div>
+		
+		<button onclick="displayInfo();">Submit Information</button>
+	</body>
+		
+		
+</html>

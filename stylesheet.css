@@ -1,0 +1,138 @@
+body
+{
+	text-align:center;
+}
+
+.background
+{
+	position:fixed;
+	z-index:-1;
+}
+
+.background > img
+{
+	height:100%;
+	width:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+
+.content
+{
+	display:inline-block;
+	height:800px;
+	width:1000px;
+	position:relative;
+	top:100px;
+}
+
+.back
+{
+	display:inline-block;
+	float:right;
+	background-color:black;
+	height:800px;
+	width:82%;
+	position:relative;
+	color:white;
+	font:bold 20pt Helvetica, Sans-Serif;
+}
+
+.back img
+{
+	margin-top:13%;
+	width:100%;
+}
+
+.logo
+{
+	width:180px;
+}
+
+li
+{
+    list-style-type:none;
+	text-align:left;
+}
+
+a
+{
+	display:inline-block;
+	width:160px;
+	color:white;
+	font:bold 18pt Helvetica, Sans-Serif; 
+	text-decoration:none;
+	padding:10px;
+	background-color:#262626;
+}
+
+li div, li .contact 
+{
+    display:none;
+	
+	
+}
+
+li:hover div, .contact
+{
+    display:inline;
+	float:right;
+}
+
+
+
+li div img
+{	
+	height:70%;
+	position:absolute;
+	top:0px;
+	left:18.5%;
+}
+
+h2
+{ 
+   position:absolute; 
+   top:50%; 
+   left:18.5%; 
+   width:60%; 
+}
+
+h2 span
+{
+   color: white; 
+   font: bold 14pt Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background:rgba(0, 0, 15, 0.7);
+   padding: 10px; 
+}
+
+.click
+{
+	font: bold 12px/18px Helvetica, Sans-Serif; 
+}
+
+.space
+{
+    padding:0 5px;
+}
+
+.paick
+{
+    font: bold 12pt Helvetica, Sans-Serif; 
+}
+
+.contact
+{
+	display:inline-block;
+	position:absolute;
+	top:100px;
+	left:200px;
+	color:white;
+	background-color:black;
+	font: bold 30px/40px Helvetica, Sans-Serif; 
+}
+
+
+
+

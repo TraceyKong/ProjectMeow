@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<!-- AMY CHIU & TRACEY KONG-->
+<html>
+	<head>
+		<title>JAMES PAICK</title>
+		<link type = "text/css" rel = "stylesheet" href = "sparth.css" />
+		<style>
+		table td img
+		{
+			height:100%;
+		}
+		</style>
+		<script>
+			function initialize()
+			{
+				viewImage=document.getElementById("viewing");
+				backb=document.getElementById("background2");
+			}
+		
+			function view(imageURL)
+			{
+				backb.style.display="inline";
+				viewImage.src=imageURL;
+			}
+			
+			function exit()
+			{
+				backb.style.display="none";
+				viewImage.src="";
+			}
+		</script>
+	</head>
+	<body onload="initialize();">
+		<div class="background">
+			<img src="images/background.jpg"/>
+		</div>
+		
+		<div id="background2"><div onclick="exit();"></div><img id="viewing" src="" /></div>
+		
+		<div class="content">			
+			<td>
+				<a href= "index.html">Home</a>
+			</td>
+			
+			<td>
+				<a href= "pikachu.html">Pikachu</a>
+			</td>
+		
+			<td>
+				<a href= "sparth.html">Sparth</a>
+			</td>
+		
+			<td>
+				<a href= "paick.html">James Paick</a>
+			</td>
+		
+			<td>
+				<a href= "donations page.html">Please Donate!</a>
+			</td>
+			
+			<td>
+				<div class="logo"><img src="images/paick.jpg" /><br/><br/><br/><br/><span class="name">JAMES PAICK<br/><br/><br/>BIO:</span>
+				<span>James Paick is the founder and Creative Director at Scribble Pad Studios
+				with over 15 years of design experience. Scribble Pad Studios under the direction
+				of James Paick has been responsible for creating some of the most memorable designs
+				and moments in entertainment design. James has developed many projects within the
+				gaming, film, theme park, illustration, entertainment space and advertising fields.</span></div>
+			</td>
+			
+			<div class="back">
+				<div class="port">PORTFOLIO</div>
+				<table>
+				<tr>
+					<td><img onclick="view('images/james_paick/james-paick-fushun-02h.jpg');" src="images/james_paick/james-paick-fushun-02h.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-front-gate-final-3.jpg');" src="images/james_paick/james-paick-front-gate-final-3.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-f9-double-helix-ur-shot1-final-06.jpg');" src="images/james_paick/james-paick-f9-double-helix-ur-shot1-final-06.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-maze-05.jpg');" src="images/james_paick/james-paick-maze-05.jpg"/></td>
+				</tr>
+				
+				<tr>
+					<td><img onclick="view('images/james_paick/james-paick-titanfall-1.jpg');" src="images/james_paick/james-paick-titanfall-1.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-prey-paintover2-final-03-copy.jpg');" src="images/james_paick/james-paick-prey-paintover2-final-03-copy.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-10704205-643323462431492-2227178945846231540-o.jpg');" src="images/james_paick/james-paick-10704205-643323462431492-2227178945846231540-o.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-book-cover.jpg');" src="images/james_paick/james-paick-book-cover.jpg"/></td>
+				</tr>
+				
+				<tr>
+					<td><img onclick="view('images/james_paick/james-paick-teaching-demos-1.jpg');" src="images/james_paick/james-paick-teaching-demos-1.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-infamous2-fort-final-04.jpg');" src="images/james_paick/james-paick-infamous2-fort-final-04.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-jp-hut-02.jpg');" src="images/james_paick/james-paick-jp-hut-02.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-teaching-demos-2.jpg');" src="images/james_paick/james-paick-teaching-demos-2.jpg"/></td>
+				</tr>
+				
+				<tr>
+					<td><img onclick="view('images/james_paick/james-paick-infamous2-cemetery2-final-03.jpg');" src="images/james_paick/james-paick-infamous2-cemetery2-final-03.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-cda-53.jpg');" src="images/james_paick/james-paick-cda-53.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-damage-ship-04.jpg');" src="images/james_paick/james-paick-damage-ship-04.jpg"/></td>
+					<td><img onclick="view('images/james_paick/james-paick-teaching-demos-8.jpg');" src="images/james_paick/james-paick-teaching-demos-8.jpg"/></td>
+				</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+
+</html>

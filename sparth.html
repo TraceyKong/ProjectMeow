@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<!-- AMY CHIU & TRACEY KONG-->
+<html>
+	<head>
+		<title>SPARTH.</title>
+		<link type = "text/css" rel = "stylesheet" href = "sparth.css" />
+		<style>
+		table td img
+		{
+			width:100%;
+		}
+		</style>
+		<script>
+			function initialize()
+			{
+				viewImage=document.getElementById("viewing");
+				backb=document.getElementById("background2");
+			}
+		
+			function view(imageURL)
+			{
+				backb.style.display="inline";
+				viewImage.src=imageURL;
+			}
+			
+			function exit()
+			{
+				backb.style.display="none";
+				viewImage.src="";
+			}
+		</script>
+	</head>
+	<body onload="initialize();">
+		<div class="background">
+			<img src="images/background.jpg"/>
+		</div>
+		
+		<div id="background2"><div onclick="exit();"></div><img id="viewing" src="" /></div>
+		
+		<div class="content">			
+			<td>
+				<a href= "index.html">Home</a>
+			</td>
+			
+			<td>
+				<a href= "pikachu.html">Pikachu</a>
+			</td>
+		
+			<td>
+				<a href= "sparth.html">Sparth</a>
+			</td>
+		
+			<td>
+				<a href= "paick.html">James Paick</a>
+			</td>
+		
+			<td>
+				<a href= "donations page.html">Please Donate!</a>
+			</td>
+			
+			<td>
+				<div class="logo"><img src="images/sparth.jpg" /><br/><br/><br/><br/><span class="name">SPARTH.<br/><br/><br/><br/>BIO:</span>
+				<span>Sparth (nicolas bouvier) has been an active artistic
+				director and concept designer in the gaming industry since 
+				1996. Born in France, he now lives in Seattle, Washington, 
+				working for Microsoft.Having had the privilege of travelling 
+				extensively at an early age to such places as far afield as 
+				the USA, Singapore, China, France and Europe, he was influenced
+				greatly by the various cultures, and he enjoyed observing people 
+				and making notes of all these tiny details of life that he was 
+				witnessing. The varied influences are largely responsible for 
+				his multiple creative passions, which range from space, to buildings
+				, to robotics and beyond.<br/>
+				There are no limits to his creativity when it comes to translating forms 
+				and concepts. One of his greatest passion remains contemporary architecture
+				, of which he applies principles in his own art, with an experimental and
+				original approach. He also harbours a fascination for modern skyscrapers,
+				although he admits that he wouldn't be able to live too high above the 
+				ground himself.</span></div>
+			</td>
+			
+			<div class="back">
+				<div class="port">PORTFOLIO</div>
+				<table>
+				<tr>
+					<td><img onclick="view('images/sparth/graphic_city_final_small.jpg');" src="images/sparth/graphic_city_final_small.jpg"/></td>
+					<td><img onclick="view('images/sparth/sparth-nicolas-bouvier-ramp-final-small.jpg');" src="images/sparth/sparth-nicolas-bouvier-ramp-final-small.jpg"/></td>
+					<td><img onclick="view('images/sparth/sparth-armada-10-small.jpg');" src="images/sparth/sparth-armada-10-small.jpg"/></td>
+					<td><img onclick="view('images/sparth/sparth-sparth-bordage-resonances.jpg');" src="images/sparth/sparth-sparth-bordage-resonances.jpg"/></td>
+				</tr>
+				
+				<tr>
+					<td><img onclick="view('images/sparth/sparth-sparth-space-station-finalfinal-s.jpg');" src="images/sparth/sparth-sparth-space-station-finalfinal-s.jpg"/></td>
+					<td><img onclick="view('images/axeman.jpg');" src="images/axeman.jpg"/></td>
+					<td><img onclick="view('images/sparth/sparth-nicolas-bouvier-arctic-sub-final-small.jpg');" src="images/sparth/sparth-nicolas-bouvier-arctic-sub-final-small.jpg"/></td>
+					<td><img onclick="view('images/sparth/sparth-nicolas-bouvier-sparth-sands-final-small.jpg');" src="images/sparth/sparth-nicolas-bouvier-sparth-sands-final-small.jpg"/></td>
+				</tr>
+				
+				<tr>
+					<td><img onclick="view('images/sparth/sparth-dying_world_2014.jpg');" src="images/sparth/sparth-dying_world_2014.jpg"/></td>
+					<td><img onclick="view('images/sparth/sparth-lava-spaceship-2014.jpg');" src="images/sparth/sparth-lava-spaceship-2014.jpg"/></td>
+					<td><img onclick="view('images/sparth/sparth-nicolas-bouvier-rendez-vous-7-final-small.jpg');" src="images/sparth/sparth-nicolas-bouvier-rendez-vous-7-final-small.jpg"/></td>
+					<td><img onclick="view('images/sparth/sparth-nicolas-bouvier-sparth-volcano-city-flat-small.jpg');" src="images/sparth/sparth-nicolas-bouvier-sparth-volcano-city-flat-small.jpg"/></td>
+				</tr>
+				
+				<tr>
+					<td><img onclick="view('images/sparth/blue-exodus-final.jpg');" src="images/sparth/blue-exodus-final.jpg"/></td>
+					<td><img onclick="view('images/sparth/sparth_-_god_of_winter_-_2013.jpg');" src="images/sparth/sparth_-_god_of_winter_-_2013.jpg"/></td>
+					<td><img onclick="view('images/sparth/sparth-nicolas-bouvier-sparth-tribute-to-got-the-wall-small.jpg');" src="images/sparth/sparth-nicolas-bouvier-sparth-tribute-to-got-the-wall-small.jpg"/></td>
+					<td><img onclick="view('images/sparth/sparth-nicolas-bouvier-pendul-small.jpg');" src="images/sparth/sparth-nicolas-bouvier-pendul-small.jpg"/></td>
+				</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+
+</html>

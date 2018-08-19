@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<!-- AMY CHIU & TRACEY KONG-->
+<html>
+	<head>
+		<title>SPARTH.</title>
+		<link type = "text/css" rel = "stylesheet" href = "sparth.css" />
+		<style>
+		table td img
+		{
+			width:100%;
+		}
+		</style>
+		<script>
+			function initialize()
+			{
+				viewImage=document.getElementById("viewing");
+				backb=document.getElementById("background2");
+			}
+		
+			function view(imageURL)
+			{
+				backb.style.display="inline";
+				viewImage.src=imageURL;
+			}
+			
+			function exit()
+			{
+				backb.style.display="none";
+				viewImage.src="";
+			}
+		</script>
+	</head>
+	<body onload="initialize();">
+		<div class="background">
+			<img src="images/background.jpg"/>
+		</div>
+		
+		<div id="background2"><div onclick="exit();"></div><img id="viewing" src="" /></div>
+		
+		<div class="content">			
+			<td>
+				<a href= "index.html">Home</a>
+			</td>
+			
+			<td>
+				<a href= "pikachu.html">Pikachu</a>
+			</td>
+		
+			<td>
+				<a href= "sparth.html">Sparth</a>
+			</td>
+		
+			<td>
+				<a href= "paick.html">James Paick</a>
+			</td>
+		
+			<td>
+				<a href= "contact.html">Contact</a>
+			</td>
+			
+			<td>
+				<div class="logo"><img src="images/.jpg" /><br/><br/><br/><br/><span class="name">SPARTH.<br/><br/><br/><br/>BIO:</span>
+				</div>
+			</td>
+			
+			<div class="back">
+				
+			</div>
+		</div>
+	</body>
+
+</html>

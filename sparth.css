@@ -1,0 +1,134 @@
+body
+{
+	text-align:center;
+}
+
+.background
+{
+	position:fixed;
+	z-index:-1;
+}
+
+.background > img
+{
+	height:100%;
+	width:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+
+#background2
+{
+	display:none;
+	position:fixed;
+	z-index:+1;
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+}
+
+#background2 div
+{
+	position:fixed;
+	background:rgba(0, 0, 15, 0.7);
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+}
+
+#viewing
+{
+	position:relative;
+	height:90%;
+	top:15px;
+}
+
+.content
+{
+	display:inline-block;
+	height:8px;
+	width:1150px;
+	position:relative;
+	top:20px;
+}
+
+.back
+{
+	display:inline-block;
+	background-color:black;
+	height:850px;
+	width:815px;
+}
+
+.logo 
+{
+	width:300px;
+	float:left;
+	color:white;
+	font:13pt arial, sans-Serif;
+	text-align:left;
+	padding:10px 0px 0px 8px;
+}
+
+.logo img
+{
+	width:180px;
+	float:left;
+	padding:5px;
+	border-radius:70px;
+}
+
+.name
+{
+	font:bold 18pt Helvetica, Arial, sans-serif;
+}
+
+.content+td
+{
+	position:absolute;
+	top:0px;
+}
+
+a
+{
+	display:inline-block;
+	width:206px;
+	color:white;
+	font:bold 14pt Helvetica, Sans-Serif; 
+	text-decoration:none;
+	padding:8px;
+	background-color:#262626;
+}
+
+table
+{
+	margin:auto;
+}
+
+table td
+{
+	display:inline-block;
+	height:194px;
+	width:196px;
+	padding:2px;
+	overflow:hidden;
+}
+
+table td img
+{
+	cursor:pointer;
+}
+
+.port
+{
+	color:white;
+	font:bold 20pt Arial, sans-Serif;
+	padding-top:10px;
+}
+
+
+
+
